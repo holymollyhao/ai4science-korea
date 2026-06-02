@@ -506,6 +506,8 @@ a.meta-item:hover span { text-decoration-color: var(--accent-ink); }
 /* ----- Full static poster list ----- */
 .plist {
   margin-top: 40px;
+  padding: 0;
+  list-style: none;
   border: 1px solid var(--hairline);
   border-radius: 10px;
   overflow: hidden;
