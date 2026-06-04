@@ -289,6 +289,9 @@ a.meta-item:hover span { text-decoration-color: var(--accent-ink); }
 @media (max-width: 560px) { .speaker-grid { grid-template-columns: 1fr; } }
 
 .speaker {
+  display: block;
+  color: inherit;
+  text-decoration: none;
   border: 1px solid var(--hairline);
   border-radius: 10px;
   background: var(--bg-pure);
@@ -296,6 +299,7 @@ a.meta-item:hover span { text-decoration-color: var(--accent-ink); }
   position: relative;
   transition: border-color .15s ease, transform .15s ease;
 }
+a.speaker { cursor: pointer; }
 .speaker:hover { border-color: var(--accent); transform: translateY(-2px); }
 .speaker .plus { position: absolute; top: 12px; right: 14px; color: var(--accent); font-family: var(--font-mono); z-index: 2; }
 .speaker .portrait {
