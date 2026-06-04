@@ -282,7 +282,7 @@ a.meta-item:hover span { text-decoration-color: var(--accent-ink); }
    ============================================================ */
 .speaker-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 @media (max-width: 880px) { .speaker-grid { grid-template-columns: repeat(2, 1fr); } }
