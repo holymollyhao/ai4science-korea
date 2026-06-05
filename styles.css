@@ -112,6 +112,7 @@ h3 { font-size: 1.25rem; font-weight: 500; letter-spacing: -0.01em; line-height:
 .section--dark .eyebrow .br { color: var(--accent-ink); }
 .section--dark .lede { color: #C9C2E0; }
 .section--dark a { color: var(--accent-ink); }
+.section--dark .btn-primary { color: #fff; }
 .section--dark .btn-ghost { color: #fff; border-color: rgba(185,168,255,0.4); }
 .section--dark .btn-ghost:hover { border-color: var(--accent-ink); color: var(--accent-ink); }
 
