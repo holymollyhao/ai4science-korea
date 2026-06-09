@@ -613,22 +613,31 @@ a.organizer:hover .name { color: var(--accent-ink); }
 .sponsor-btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  height: 54px;
-  padding: 0 22px;
+  gap: 11px;
+  height: 52px;
+  padding: 0 20px;
   background: #fff;
-  border: 1px solid var(--hairline-dk);
+  border: 1px solid #D9D5E4;
   border-radius: 12px;
+  color: #2E2A3D;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.02rem;
+  line-height: 1;
+  box-shadow: 0 1px 2px rgba(20,16,31,0.06);
   transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
 }
+.sponsor-btn span { color: #2E2A3D; }
 .sponsor-btn img {
-  height: 30px;
-  width: auto;
+  height: 26px;
+  width: 26px;
+  object-fit: contain;
   display: block;
+  flex: 0 0 auto;
 }
 .sponsor-btn:hover {
   transform: translateY(-3px);
-  border-color: var(--accent-ink);
+  border-color: var(--accent);
   box-shadow: 0 16px 34px -20px rgba(124,58,237,0.7);
 }
 @media (max-width: 560px) {
